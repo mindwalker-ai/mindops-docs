@@ -4,7 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://docs.mindops.io',
+	site: 'https://mindwalker-ai.github.io',
+	base: '/mindops-docs',
 	outDir: './docs',
 	integrations: [
 		starlight({
