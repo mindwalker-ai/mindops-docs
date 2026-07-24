@@ -116,7 +116,7 @@ helm uninstall mindops -n mindops
 ```
 
 :::caution
-`helm uninstall` may leave PersistentVolumeClaims behind to protect data. Delete them explicitly to reclaim storage. See the [uninstall guide](/install/uninstall/).
+`helm uninstall` may leave PersistentVolumeClaims behind to protect data. Delete them explicitly to reclaim storage. See the [uninstall guide](/mindops-docs/install/uninstall/).
 :::
 
-For managed clusters, continue with [AWS EKS](/install/kubernetes-aws/) or [GCP GKE](/install/kubernetes-gcp/).
+For managed clusters, continue with [AWS EKS](/mindops-docs/install/kubernetes-aws/) or [GCP GKE](/mindops-docs/install/kubernetes-gcp/).

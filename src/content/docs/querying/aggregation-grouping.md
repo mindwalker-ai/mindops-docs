@@ -78,4 +78,4 @@ Group by: service_name
 
 ## Pairing with Having
 
-After aggregating, use `Having` to drop uninteresting groups — for example, only show routes whose `count` is above a threshold. See the [Query Builder](/querying/query-builder/) for where `Having` fits in the flow.
+After aggregating, use `Having` to drop uninteresting groups — for example, only show routes whose `count` is above a threshold. See the [Query Builder](/mindops-docs/querying/query-builder/) for where `Having` fits in the flow.

@@ -64,10 +64,10 @@ The collector is the only inbound entry point for telemetry. Applications never 
 This split matters when you plan storage and high availability. ClickHouse is almost always the component that dictates CPU, memory, and disk needs.
 
 :::tip
-When sizing a deployment, start from your expected telemetry volume and work backward to ClickHouse resources. See [capacity planning](/install/capacity-planning/) for concrete guidance.
+When sizing a deployment, start from your expected telemetry volume and work backward to ClickHouse resources. See [capacity planning](/mindops-docs/install/capacity-planning/) for concrete guidance.
 :::
 
 ## Where to go next
 
-- Choose a deployment target in the [installation overview](/install/overview/).
-- Or jump straight to [Docker standalone](/install/docker-standalone/) for the fastest self-host path.
+- Choose a deployment target in the [installation overview](/mindops-docs/install/overview/).
+- Or jump straight to [Docker standalone](/mindops-docs/install/docker-standalone/) for the fastest self-host path.

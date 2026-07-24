@@ -68,9 +68,9 @@ noise before filtering it out.
 
 :::tip
 Watch ingestion volume by `service.name` in the
-[Log Explorer](/logs/log-explorer/) before and after adding a drop rule to
+[Log Explorer](/mindops-docs/logs/log-explorer/) before and after adding a drop rule to
 confirm the reduction and that you did not lose important records.
 :::
 
 Drop steps are usually the **last** processors in a
-[log pipeline](/logs/pipelines/), after parsing and redaction have run.
+[log pipeline](/mindops-docs/logs/pipelines/), after parsing and redaction have run.

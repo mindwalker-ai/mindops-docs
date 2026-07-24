@@ -75,9 +75,9 @@ actually relies on. Migrate the noisiest, most-watched service first to build co
 
 :::note
 Self-hosted MindOps needs no ingestion key, so there is no per-host billing meter — the
-cost model is your own infrastructure. See the [Introduction](/introduction/) for the
+cost model is your own infrastructure. See the [Introduction](/mindops-docs/introduction/) for the
 architecture you are migrating onto.
 :::
 
-Other guides: [New Relic](/migration/from-new-relic/),
-[Grafana stack](/migration/from-grafana/), [ELK](/migration/from-elk/).
+Other guides: [New Relic](/mindops-docs/migration/from-new-relic/),
+[Grafana stack](/mindops-docs/migration/from-grafana/), [ELK](/mindops-docs/migration/from-elk/).

@@ -20,7 +20,7 @@ You need the **Admin** role in MindOps and administrative access to your OIDC pr
 
 ## Step 1: Note the redirect URI
 
-In MindOps, open **Settings → SSO → OIDC**. The **redirect URI** is derived from your external base URL (set it first, see [Server configuration](/manage/configuration/)). It typically looks like:
+In MindOps, open **Settings → SSO → OIDC**. The **redirect URI** is derived from your external base URL (set it first, see [Server configuration](/mindops-docs/manage/configuration/)). It typically looks like:
 
 ```text
 https://observe.example.com/api/v1/complete/oidc
@@ -66,7 +66,7 @@ mindops-editors  → Editor
 mindops-viewers  → Viewer
 ```
 
-New users are provisioned on first login with the matching role. See [Roles and permissions](/identity-access/roles-and-permissions/). Give unmatched users a safe default such as Viewer.
+New users are provisioned on first login with the matching role. See [Roles and permissions](/mindops-docs/identity-access/roles-and-permissions/). Give unmatched users a safe default such as Viewer.
 
 ## Step 5: Enable and test
 
@@ -84,4 +84,4 @@ Keep one local Admin account that bypasses SSO. If the provider connection break
 - **Discovery fails:** confirm the issuer URL is reachable from the MindOps server and serves the well-known document.
 - **Logged in but no access:** the roles/groups claim is missing or maps to nothing.
 
-Need SAML instead? See [SAML SSO](/identity-access/sso-saml/).
+Need SAML instead? See [SAML SSO](/mindops-docs/identity-access/sso-saml/).

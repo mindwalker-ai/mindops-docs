@@ -3,7 +3,7 @@ title: Trace Funnels
 description: Define multi-step funnels across services in MindOps to measure conversion, drop-off, and inter-step latency from your trace data.
 ---
 
-A trace funnel measures how requests progress through an ordered sequence of operations that may span several services. Where the [Service Map](/traces/service-map/) shows structure, a funnel shows *flow* — how many requests that reached step 1 also reached step 2, and how long the journey took.
+A trace funnel measures how requests progress through an ordered sequence of operations that may span several services. Where the [Service Map](/mindops-docs/traces/service-map/) shows structure, a funnel shows *flow* — how many requests that reached step 1 also reached step 2, and how long the journey took.
 
 ## When to use a funnel
 
@@ -51,4 +51,4 @@ Watch inter-step latency, not just conversion. A funnel can convert at 99% while
 Funnels are derived from the same spans as everything else in MindOps — no extra instrumentation is required beyond the spans your services already emit over OTLP.
 :::
 
-From any funnel step you can jump into the matching traces in the [Trace Explorer](/traces/trace-explorer/) to inspect exactly why requests dropped out.
+From any funnel step you can jump into the matching traces in the [Trace Explorer](/mindops-docs/traces/trace-explorer/) to inspect exactly why requests dropped out.

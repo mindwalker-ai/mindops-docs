@@ -73,5 +73,5 @@ Self-hosted MindOps needs no ingestion key. Once metrics arrive, turn them into 
 dashboard per database and add alerts for connection saturation and replication lag.
 :::
 
-See [Integrations Overview](/integrations/overview/) to add more receivers to the same
+See [Integrations Overview](/mindops-docs/integrations/overview/) to add more receivers to the same
 Collector.

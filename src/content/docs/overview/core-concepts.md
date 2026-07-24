@@ -73,6 +73,6 @@ Avoid putting unbounded values like user IDs, full URLs, or session tokens into 
 
 - Set traces, metrics, and logs to different windows based on value and volume.
 - Shorter retention lowers disk usage; longer retention aids historical investigation.
-- Plan retention together with disk capacity, covered in [capacity planning](/install/capacity-planning/).
+- Plan retention together with disk capacity, covered in [capacity planning](/mindops-docs/install/capacity-planning/).
 
-Next, see how these signals flow through the system in the [architecture overview](/overview/architecture/).
+Next, see how these signals flow through the system in the [architecture overview](/mindops-docs/overview/architecture/).

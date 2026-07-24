@@ -86,14 +86,14 @@ scrape_configs:
 :::tip
 Add a `resourcedetection` processor so scraped metrics get a consistent
 `service.name`/`host.name`. Otherwise they may be harder to group in the
-[Metrics Explorer](/metrics/metrics-explorer/).
+[Metrics Explorer](/mindops-docs/metrics/metrics-explorer/).
 :::
 
 :::caution
 Prometheus counters are cumulative. When querying in MindOps, apply a `rate`
 function to turn them into per-second values — see
-[Querying Metrics](/metrics/querying-metrics/).
+[Querying Metrics](/mindops-docs/metrics/querying-metrics/).
 :::
 
 For pushing measurements from app code instead of scraping, see
-[Send Metrics](/metrics/send-metrics/).
+[Send Metrics](/mindops-docs/metrics/send-metrics/).

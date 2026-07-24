@@ -76,4 +76,4 @@ Because instrumentation follows an open standard, you are never locked into one 
 
 MindOps ships an OpenTelemetry Collector as its ingestion layer. Your apps export OTLP to that collector, which batches and writes signals into ClickHouse. The MindOps UI then queries that store. Nothing proprietary touches your code.
 
-Continue with the [core concepts](/overview/core-concepts/) to learn the data model in detail.
+Continue with the [core concepts](/mindops-docs/overview/core-concepts/) to learn the data model in detail.

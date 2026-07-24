@@ -95,4 +95,4 @@ Use the cluster view for capacity planning, the node view to spot a hot machine,
 - Always run `k8s_cluster` with a single replica to avoid duplicate series.
 - Drop high-cardinality container metrics you never query.
 
-For plain virtual machines, see [Host metrics](/infrastructure/hostmetrics/).
+For plain virtual machines, see [Host metrics](/mindops-docs/infrastructure/hostmetrics/).

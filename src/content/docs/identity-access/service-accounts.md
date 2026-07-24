@@ -13,7 +13,7 @@ Service accounts give scripts, CI pipelines, and integrations a way to talk to M
 - Any access path where storing a person's password would be wrong.
 
 :::note
-Service accounts are for machines. For people, use [email invites](/identity-access/invite-team-members/) or SSO so that access is tied to an individual who can be offboarded.
+Service accounts are for machines. For people, use [email invites](/mindops-docs/identity-access/invite-team-members/) or SSO so that access is tied to an individual who can be offboarded.
 :::
 
 ## Creating an API key
@@ -34,7 +34,7 @@ The key is shown only once at creation time. MindOps stores a hash, not the raw 
 
 ## Scopes
 
-A key inherits a role, so it carries the same capabilities as that role from the [permission matrix](/identity-access/roles-and-permissions/):
+A key inherits a role, so it carries the same capabilities as that role from the [permission matrix](/mindops-docs/identity-access/roles-and-permissions/):
 
 | Scope | Use for |
 |-------|---------|

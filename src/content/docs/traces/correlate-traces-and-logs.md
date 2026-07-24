@@ -46,10 +46,10 @@ Emit `trace_id` as the 32-character lowercase hex form and `span_id` as 16-chara
 
 ### Map the fields on ingestion
 
-If your logs already contain trace identifiers under custom keys, map them to the standard `trace_id` / `span_id` fields with a transform/attributes processor in your Collector pipeline so MindOps can correlate them. See [Drop and Transform Spans](/traces/drop-spans/) for processor examples and the [Collector overview](/collection-agents/overview/).
+If your logs already contain trace identifiers under custom keys, map them to the standard `trace_id` / `span_id` fields with a transform/attributes processor in your Collector pipeline so MindOps can correlate them. See [Drop and Transform Spans](/mindops-docs/traces/drop-spans/) for processor examples and the [Collector overview](/mindops-docs/collection-agents/overview/).
 
 :::tip
 Log structured key-value data, not pre-formatted strings. Structured logs let MindOps index `trace_id` as a real field and make the pivot instant.
 :::
 
-Once correlation is in place, the workflow becomes: spot a failing span in the [Trace Explorer](/traces/trace-explorer/) → open the trace → jump to its logs → read the root cause.
+Once correlation is in place, the workflow becomes: spot a failing span in the [Trace Explorer](/mindops-docs/traces/trace-explorer/) → open the trace → jump to its logs → read the root cause.

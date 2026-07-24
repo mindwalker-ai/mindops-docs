@@ -92,4 +92,4 @@ The webhook channel posts a JSON payload to any HTTPS endpoint, letting you wire
 - Always run **Test** after editing credentials.
 - Store webhook secrets in your deployment's secret manager, never in plain templates.
 
-Once channels exist, decide which severity goes where in [Planned maintenance & routing](/alerts/planned-maintenance-and-routing/).
+Once channels exist, decide which severity goes where in [Planned maintenance & routing](/mindops-docs/alerts/planned-maintenance-and-routing/).

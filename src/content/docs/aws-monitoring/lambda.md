@@ -71,5 +71,5 @@ Self-hosted MindOps needs no ingestion key, so the OTLP endpoint above carries n
 header. Make sure the function's VPC/security groups can reach the Collector.
 :::
 
-For always-on compute, compare with [ECS](/aws-monitoring/ecs/) and
-[EC2](/aws-monitoring/ec2/).
+For always-on compute, compare with [ECS](/mindops-docs/aws-monitoring/ecs/) and
+[EC2](/mindops-docs/aws-monitoring/ec2/).

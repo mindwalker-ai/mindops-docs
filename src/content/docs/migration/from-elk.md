@@ -80,8 +80,8 @@ trace-to-log correlation pays off immediately.
 
 :::note
 Self-hosted MindOps needs no ingestion key. Logs land over OTLP (`:4317`/`:4318`) next to
-your traces. See the [Introduction](/introduction/) for the full picture.
+your traces. See the [Introduction](/mindops-docs/introduction/) for the full picture.
 :::
 
-Other guides: [Datadog](/migration/from-datadog/),
-[New Relic](/migration/from-new-relic/), [Grafana stack](/migration/from-grafana/).
+Other guides: [Datadog](/mindops-docs/migration/from-datadog/),
+[New Relic](/mindops-docs/migration/from-new-relic/), [Grafana stack](/mindops-docs/migration/from-grafana/).

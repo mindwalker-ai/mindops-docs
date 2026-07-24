@@ -24,19 +24,19 @@ Work through these areas regularly rather than only when something breaks.
 
 ### Upgrades
 
-Pull new images and recreate containers on a cadence that matches your risk tolerance. Always snapshot ClickHouse and Postgres first. See [Upgrading MindOps](/manage/upgrade/) for the full procedure and rollback steps.
+Pull new images and recreate containers on a cadence that matches your risk tolerance. Always snapshot ClickHouse and Postgres first. See [Upgrading MindOps](/mindops-docs/manage/upgrade/) for the full procedure and rollback steps.
 
 ### Storage and retention
 
-Disk is the resource most likely to surprise you. Set sane [retention periods](/manage/retention-period/) per signal and watch ClickHouse volume growth. The [ClickHouse operations guide](/manage/clickhouse/) explains where data lives and how to grow the volume.
+Disk is the resource most likely to surprise you. Set sane [retention periods](/mindops-docs/manage/retention-period/) per signal and watch ClickHouse volume growth. The [ClickHouse operations guide](/mindops-docs/manage/clickhouse/) explains where data lives and how to grow the volume.
 
 ### Configuration
 
-Server behavior, datastore DSNs, SMTP, and the external URL are all driven by config and environment variables. Review [Configuration](/manage/configuration/) before changing anything in production, and keep your config under version control.
+Server behavior, datastore DSNs, SMTP, and the external URL are all driven by config and environment variables. Review [Configuration](/mindops-docs/manage/configuration/) before changing anything in production, and keep your config under version control.
 
 ### Users and access
 
-Provision people through roles, not shared logins. The [Identity and Access overview](/identity-access/overview/) describes the RBAC model; invite teammates only after SMTP is configured.
+Provision people through roles, not shared logins. The [Identity and Access overview](/mindops-docs/identity-access/overview/) describes the RBAC model; invite teammates only after SMTP is configured.
 
 ## A healthy-instance routine
 
@@ -57,7 +57,7 @@ Send a synthetic trace from a test service after every upgrade. If it appears in
 
 ## When to scale out
 
-A single-node Docker deployment comfortably handles small-to-medium workloads. Consider moving ClickHouse to a [dedicated or externally managed cluster](/manage/external-clickhouse/) when ingest volume saturates local disk I/O, when you need replication, or when retention requirements outgrow one machine.
+A single-node Docker deployment comfortably handles small-to-medium workloads. Consider moving ClickHouse to a [dedicated or externally managed cluster](/mindops-docs/manage/external-clickhouse/) when ingest volume saturates local disk I/O, when you need replication, or when retention requirements outgrow one machine.
 
 ## Backups in one line
 

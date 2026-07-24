@@ -62,6 +62,6 @@ OTLP/HTTP logs    -> https://otel.example.com/v1/logs
 
 ## Next steps
 
-- [Android & Kotlin](/mobile-monitoring/android-kotlin/)
-- [iOS & Swift](/mobile-monitoring/ios-swift/)
-- [Flutter & React Native](/mobile-monitoring/flutter-react-native/)
+- [Android & Kotlin](/mindops-docs/mobile-monitoring/android-kotlin/)
+- [iOS & Swift](/mindops-docs/mobile-monitoring/ios-swift/)
+- [Flutter & React Native](/mindops-docs/mobile-monitoring/flutter-react-native/)

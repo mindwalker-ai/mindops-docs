@@ -41,6 +41,6 @@ receivers, and they appear in MindOps alongside everything else.
 
 ## Tie it together
 
-Infrastructure metrics become panels on a [dashboard](/dashboards/overview/) and targets
-for [alerts](/alerts/overview/) — for example, a disk-utilization alert so ClickHouse never
+Infrastructure metrics become panels on a [dashboard](/mindops-docs/dashboards/overview/) and targets
+for [alerts](/mindops-docs/alerts/overview/) — for example, a disk-utilization alert so ClickHouse never
 silently runs out of space.

@@ -70,11 +70,11 @@ Click a service to open its detail view, where you can:
 2. Break down latency and errors by **endpoint** to find the worst operation.
 3. Jump from any spike straight into the **traces** that produced it.
 4. Open the **Database Calls** and **External Calls** tabs to inspect downstream
-   dependencies — see [Database and external calls](/apm/database-and-external-calls/).
+   dependencies — see [Database and external calls](/mindops-docs/apm/database-and-external-calls/).
 
 :::note[Everything is trace-derived]
 You never push RED metrics or Apdex directly. Instrument your service to emit
-traces — see the language guides under [Introduction](/introduction/) — and
+traces — see the language guides under [Introduction](/mindops-docs/introduction/) — and
 MindOps derives the Services view from them.
 :::
 

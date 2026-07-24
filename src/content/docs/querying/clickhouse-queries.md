@@ -14,7 +14,7 @@ Switch a panel or alert to ClickHouse mode when you need to:
 - Compute a column the Builder cannot express.
 - Reuse an existing SQL report verbatim.
 
-For simpler questions, the [Query Builder](/querying/query-builder/) is faster and less error-prone.
+For simpler questions, the [Query Builder](/mindops-docs/querying/query-builder/) is faster and less error-prone.
 
 ## Required output shape
 
@@ -101,4 +101,4 @@ The same SQL drives alerts: return a single value column and a time column, and 
 Always constrain the time range with a `timestamp` predicate (or rely on the panel's injected range). Unbounded scans over large telemetry tables are slow and expensive.
 :::
 
-For metric-only queries with a Prometheus flavor, see [PromQL](/querying/promql/).
+For metric-only queries with a Prometheus flavor, see [PromQL](/mindops-docs/querying/promql/).

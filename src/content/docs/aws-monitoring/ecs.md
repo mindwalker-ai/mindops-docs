@@ -77,4 +77,4 @@ Self-hosted MindOps needs no ingestion key — the exporter points straight at O
 services in the UI at `http://localhost:8080`.
 :::
 
-For node-level Kubernetes instead of ECS, see [EKS](/aws-monitoring/eks/).
+For node-level Kubernetes instead of ECS, see [EKS](/mindops-docs/aws-monitoring/eks/).

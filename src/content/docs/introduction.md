@@ -49,15 +49,15 @@ traces link to the logs emitted during them, and exceptions are embedded directl
 
 | Pillar | What it answers | Where to look |
 | --- | --- | --- |
-| **Traces** | *Where* is a request slow or failing? | [Distributed Tracing](/traces/overview/) |
-| **Metrics** | *How* is the system behaving over time? | [Metrics](/metrics/overview/) |
-| **Logs** | *Why* did something happen? | [Logs](/logs/overview/) |
+| **Traces** | *Where* is a request slow or failing? | [Distributed Tracing](/mindops-docs/traces/overview/) |
+| **Metrics** | *How* is the system behaving over time? | [Metrics](/mindops-docs/metrics/overview/) |
+| **Logs** | *Why* did something happen? | [Logs](/mindops-docs/logs/overview/) |
 
 ## Next steps
 
-1. **[Self-host MindOps with Docker](/get-started/install-docker/)** — get a full instance
+1. **[Self-host MindOps with Docker](/mindops-docs/get-started/install-docker/)** — get a full instance
    running locally in minutes.
-2. **[Send your first data](/get-started/send-data/)** — point an application at MindOps
+2. **[Send your first data](/mindops-docs/get-started/send-data/)** — point an application at MindOps
    and watch telemetry arrive.
-3. **[Learn the core concepts](/get-started/concepts/)** — OTLP, the collector, services,
+3. **[Learn the core concepts](/mindops-docs/get-started/concepts/)** — OTLP, the collector, services,
    and signals.

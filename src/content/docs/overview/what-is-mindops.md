@@ -3,7 +3,7 @@ title: What is MindOps?
 description: An overview of MindOps, the self-hosted, OpenTelemetry-native observability platform that unifies traces, metrics, and logs in a single pane of glass.
 ---
 
-MindOps is a self-hosted, open observability platform that brings your traces, metrics, and logs together in one place. It is built on [OpenTelemetry](/overview/what-is-opentelemetry/) from the ground up and stores telemetry in ClickHouse, with Postgres holding platform metadata. You run it on your own infrastructure with Docker, and the web UI is served at `http://localhost:8080`.
+MindOps is a self-hosted, open observability platform that brings your traces, metrics, and logs together in one place. It is built on [OpenTelemetry](/mindops-docs/overview/what-is-opentelemetry/) from the ground up and stores telemetry in ClickHouse, with Postgres holding platform metadata. You run it on your own infrastructure with Docker, and the web UI is served at `http://localhost:8080`.
 
 ## The single pane of glass
 
@@ -51,6 +51,6 @@ Self-hosted MindOps requires **no ingestion key**. Send OTLP straight to the col
 
 ## Next steps
 
-- Learn the [core concepts](/overview/core-concepts/) behind services, spans, and attributes.
-- Understand the [architecture](/overview/architecture/) that powers ingestion and storage.
-- Get hands-on with the [installation overview](/install/overview/).
+- Learn the [core concepts](/mindops-docs/overview/core-concepts/) behind services, spans, and attributes.
+- Understand the [architecture](/mindops-docs/overview/architecture/) that powers ingestion and storage.
+- Get hands-on with the [installation overview](/mindops-docs/install/overview/).

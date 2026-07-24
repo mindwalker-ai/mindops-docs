@@ -87,4 +87,4 @@ Point your application SDKs at the node agent using the host IP and port `4317`,
 A self-hosted MindOps endpoint needs no ingestion key. `tls.insecure: true` is fine for in-cluster traffic; enable TLS when the gateway exports across cluster or network boundaries.
 :::
 
-See [Collector Configuration](/collection-agents/collector-configuration/) for the full anatomy of these pipelines.
+See [Collector Configuration](/mindops-docs/collection-agents/collector-configuration/) for the full anatomy of these pipelines.

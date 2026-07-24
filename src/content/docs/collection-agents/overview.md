@@ -45,7 +45,7 @@ Pointing apps directly at the backend works, but a Collector buys you a lot:
 - **Redaction and enrichment** — strip PII and add resource attributes (`k8s.pod.name`, `host.name`, environment) centrally.
 - **Sampling and filtering** — control volume in one place rather than across dozens of SDK configs.
 
-See [Why Use a Collector](/collection-agents/why-use-collector/) for the full rationale, and [Collector Configuration](/collection-agents/collector-configuration/) for a complete example. For MindOps itself, review the [introduction](/introduction/).
+See [Why Use a Collector](/mindops-docs/collection-agents/why-use-collector/) for the full rationale, and [Collector Configuration](/mindops-docs/collection-agents/collector-configuration/) for a complete example. For MindOps itself, review the [introduction](/mindops-docs/introduction/).
 
 ## Connecting to MindOps
 

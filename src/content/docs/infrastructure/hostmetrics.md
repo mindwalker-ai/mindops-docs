@@ -96,4 +96,4 @@ Mount the host root at exactly the path you set in `root_path`. A mismatch makes
 - Add a `resourcedetection` processor so each series carries the host name automatically.
 - Disable scrapers you do not query to keep the metric volume lean.
 
-For container orchestration, see [Kubernetes metrics](/infrastructure/kubernetes-metrics/).
+For container orchestration, see [Kubernetes metrics](/mindops-docs/infrastructure/kubernetes-metrics/).

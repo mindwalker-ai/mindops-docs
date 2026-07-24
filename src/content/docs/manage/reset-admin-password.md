@@ -27,7 +27,7 @@ If **any** administrator account still works, the simplest path is to log in wit
 2. Open the user management area under settings.
 3. Select the locked-out user and trigger a password reset or send a new invite.
 
-This requires SMTP for email-based resets. See [Inviting team members](/identity-access/invite-team-members/) for SMTP setup.
+This requires SMTP for email-based resets. See [Inviting team members](/mindops-docs/identity-access/invite-team-members/) for SMTP setup.
 
 ## Option 2: Reset via the database
 
@@ -73,5 +73,5 @@ Always prefer a built-in reset command over hand-editing the hash column. Writin
 ## Preventing future lockouts
 
 - Keep at least two administrator accounts so a single lost password is never fatal.
-- Configure [SSO](/identity-access/sso-oidc/) so account recovery flows through your identity provider.
+- Configure [SSO](/mindops-docs/identity-access/sso-oidc/) so account recovery flows through your identity provider.
 - Store break-glass credentials in a shared secret manager, not in one person's head.

@@ -31,7 +31,7 @@ processors:
 
 ### Sampling and volume control
 
-Drop noisy [health-check spans](/traces/drop-spans/) or apply [tail-based sampling](/traces/tail-sampling/) to keep errors and slow traces while shedding routine ones. Tune cost once in the Collector rather than reconfiguring every SDK.
+Drop noisy [health-check spans](/mindops-docs/traces/drop-spans/) or apply [tail-based sampling](/mindops-docs/traces/tail-sampling/) to keep errors and slow traces while shedding routine ones. Tune cost once in the Collector rather than reconfiguring every SDK.
 
 ### Fan-out
 
@@ -57,5 +57,5 @@ Treat the Collector as infrastructure, like a load balancer for telemetry. Apps 
 :::
 
 :::note
-For self-hosted MindOps, the Collector exports to the OTLP endpoint with no ingestion key. See the [Collector overview](/collection-agents/overview/) for agent vs gateway patterns and the [introduction](/introduction/) for the platform basics.
+For self-hosted MindOps, the Collector exports to the OTLP endpoint with no ingestion key. See the [Collector overview](/mindops-docs/collection-agents/overview/) for agent vs gateway patterns and the [introduction](/mindops-docs/introduction/) for the platform basics.
 :::

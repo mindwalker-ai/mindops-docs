@@ -53,9 +53,9 @@ service:
 
 ## Where to go next
 
-- [Databases](/integrations/databases/) — MySQL, PostgreSQL, MongoDB, Redis
-- [Messaging queues](/integrations/messaging-queues/) — Kafka, RabbitMQ, SQS
-- [Temporal](/integrations/temporal/) — workflow engine metrics and SDK tracing
+- [Databases](/mindops-docs/integrations/databases/) — MySQL, PostgreSQL, MongoDB, Redis
+- [Messaging queues](/mindops-docs/integrations/messaging-queues/) — Kafka, RabbitMQ, SQS
+- [Temporal](/mindops-docs/integrations/temporal/) — workflow engine metrics and SDK tracing
 
 :::note
 Self-hosted MindOps needs no ingestion key. Integrations reuse the same OTLP endpoints

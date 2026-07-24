@@ -30,15 +30,15 @@ MindOps ships three built-in roles:
 - **Editor** — can create and modify observability resources but not manage users.
 - **Viewer** — read-only access to dashboards, traces, logs, and metrics.
 
-The complete capability breakdown lives in [Roles and permissions](/identity-access/roles-and-permissions/).
+The complete capability breakdown lives in [Roles and permissions](/mindops-docs/identity-access/roles-and-permissions/).
 
 ## How users get access
 
 There are several ways to provision people, depending on how your organization is set up:
 
-1. **Email invites** — an admin invites a user and assigns a role. Requires SMTP. See [Inviting team members](/identity-access/invite-team-members/).
-2. **Single sign-on** — users authenticate through your identity provider via [SAML](/identity-access/sso-saml/) or [OIDC](/identity-access/sso-oidc/), with roles mapped from IdP attributes.
-3. **Service accounts** — non-human identities for automation, authenticated with API keys rather than passwords. See [Service accounts](/identity-access/service-accounts/).
+1. **Email invites** — an admin invites a user and assigns a role. Requires SMTP. See [Inviting team members](/mindops-docs/identity-access/invite-team-members/).
+2. **Single sign-on** — users authenticate through your identity provider via [SAML](/mindops-docs/identity-access/sso-saml/) or [OIDC](/mindops-docs/identity-access/sso-oidc/), with roles mapped from IdP attributes.
+3. **Service accounts** — non-human identities for automation, authenticated with API keys rather than passwords. See [Service accounts](/mindops-docs/identity-access/service-accounts/).
 
 ## Principle of least privilege
 
@@ -48,7 +48,7 @@ Default new users to **Viewer** and promote only when a concrete need arises. Re
 
 ## Where to go next
 
-- Understand exactly what each role can do: [Roles and permissions](/identity-access/roles-and-permissions/)
-- Add your teammates: [Invite team members](/identity-access/invite-team-members/)
-- Automate access for scripts and pipelines: [Service accounts](/identity-access/service-accounts/)
-- Centralize authentication: [SAML SSO](/identity-access/sso-saml/) or [OIDC SSO](/identity-access/sso-oidc/)
+- Understand exactly what each role can do: [Roles and permissions](/mindops-docs/identity-access/roles-and-permissions/)
+- Add your teammates: [Invite team members](/mindops-docs/identity-access/invite-team-members/)
+- Automate access for scripts and pipelines: [Service accounts](/mindops-docs/identity-access/service-accounts/)
+- Centralize authentication: [SAML SSO](/mindops-docs/identity-access/sso-saml/) or [OIDC SSO](/mindops-docs/identity-access/sso-oidc/)

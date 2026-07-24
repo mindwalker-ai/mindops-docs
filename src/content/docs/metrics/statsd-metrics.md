@@ -89,4 +89,4 @@ default.
 :::
 
 Once metrics land, build a panel in the
-[Metrics Explorer](/metrics/metrics-explorer/).
+[Metrics Explorer](/mindops-docs/metrics/metrics-explorer/).

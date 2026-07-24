@@ -89,4 +89,4 @@ Set `start_at: end` on `filelog` so a Collector restart does not replay the enti
 The MindOps OTLP endpoint needs no ingestion key for self-hosted instances. Use `tls.insecure: true` only on a trusted private network — enable TLS when crossing untrusted links.
 :::
 
-See [Collector Configuration](/collection-agents/collector-configuration/) for a deeper look at each stage.
+See [Collector Configuration](/mindops-docs/collection-agents/collector-configuration/) for a deeper look at each stage.

@@ -72,7 +72,7 @@ In the MindOps UI at `http://localhost:8080`, create a dashboard with:
 - A stacked panel of good / needs-improvement / poor counts from the `rating` attribute.
 - A table of the worst routes by p75 LCP and INP.
 
-Then attach a [metric alert](/alerts/metric-log-trace-alerts/) so a Web Vitals regression pages you before users complain.
+Then attach a [metric alert](/mindops-docs/alerts/metric-log-trace-alerts/) so a Web Vitals regression pages you before users complain.
 
 ## Tips
 

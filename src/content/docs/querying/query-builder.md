@@ -30,11 +30,11 @@ Pick the signal first. The available aggregations and attributes change to match
 
 ## Aggregation
 
-Aggregation reduces matching rows to a number per time bucket. Common choices are `count`, `sum`, `avg`, `min`, `max`, `rate`, and percentiles `p50`–`p99`. See [Aggregation and Grouping](/querying/aggregation-grouping/) for the full list and semantics.
+Aggregation reduces matching rows to a number per time bucket. Common choices are `count`, `sum`, `avg`, `min`, `max`, `rate`, and percentiles `p50`–`p99`. See [Aggregation and Grouping](/mindops-docs/querying/aggregation-grouping/) for the full list and semantics.
 
 ## Filters
 
-Filters use the MindOps [search syntax](/querying/search-syntax/) — for example `service_name = "checkout"` or `http_status_code >= 500`. Multiple filter rows combine with AND.
+Filters use the MindOps [search syntax](/mindops-docs/querying/search-syntax/) — for example `service_name = "checkout"` or `http_status_code >= 500`. Multiple filter rows combine with AND.
 
 ## Group by
 
@@ -71,5 +71,5 @@ Build each query so it stands on its own, then layer the formula. It is far easi
 :::
 
 :::note
-When the Builder cannot express a query — for example a join between logs and traces — switch the panel to [ClickHouse SQL](/querying/clickhouse-queries/).
+When the Builder cannot express a query — for example a join between logs and traces — switch the panel to [ClickHouse SQL](/mindops-docs/querying/clickhouse-queries/).
 :::

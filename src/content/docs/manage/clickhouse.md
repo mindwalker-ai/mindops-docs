@@ -78,7 +78,7 @@ A steadily rising part count on a single table can indicate merges falling behin
 
 When ClickHouse approaches its disk limit, expand the underlying storage rather than deleting data ad hoc.
 
-1. **Reduce retention first.** Often the cheapest fix is lowering [retention periods](/manage/retention-period/) so old data is dropped.
+1. **Reduce retention first.** Often the cheapest fix is lowering [retention periods](/mindops-docs/manage/retention-period/) so old data is dropped.
 2. **Expand the volume.** If you use a host bind mount, grow the host filesystem (or move it to a larger disk). For a managed volume, resize it in your cloud provider, then restart ClickHouse.
 3. **Verify free space inside the container:**
 
@@ -92,4 +92,4 @@ Never delete files under the ClickHouse data directory by hand to reclaim space.
 
 ## When one node is not enough
 
-If a single node can no longer keep up with ingest or retention demands, point MindOps at a [dedicated or externally managed ClickHouse cluster](/manage/external-clickhouse/) that supports replication and sharding.
+If a single node can no longer keep up with ingest or retention demands, point MindOps at a [dedicated or externally managed ClickHouse cluster](/mindops-docs/manage/external-clickhouse/) that supports replication and sharding.

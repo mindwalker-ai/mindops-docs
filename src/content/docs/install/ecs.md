@@ -85,4 +85,4 @@ export OTEL_SERVICE_NAME=checkout-service
 
 ## Tear down
 
-Delete the ECS services and task definitions, then remove the EFS file system once you are certain the data is no longer needed. See the [uninstall guide](/install/uninstall/) for full cleanup.
+Delete the ECS services and task definitions, then remove the EFS file system once you are certain the data is no longer needed. See the [uninstall guide](/mindops-docs/install/uninstall/) for full cleanup.

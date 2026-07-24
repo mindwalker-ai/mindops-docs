@@ -79,6 +79,6 @@ requires it.
 
 :::note
 Self-hosted MindOps needs no ingestion key — export straight to OTLP and open the traces
-in the UI at `http://localhost:8080`. See the [Introduction](/introduction/) for how the
+in the UI at `http://localhost:8080`. See the [Introduction](/mindops-docs/introduction/) for how the
 three signals stay correlated.
 :::

@@ -91,4 +91,4 @@ Self-hosted MindOps requires no ingestion key. Build a `FreeStorageSpace` alert 
 full volume never takes the database offline silently.
 :::
 
-See the [AWS overview](/aws-monitoring/overview/) for the broader CloudWatch strategy.
+See the [AWS overview](/mindops-docs/aws-monitoring/overview/) for the broader CloudWatch strategy.

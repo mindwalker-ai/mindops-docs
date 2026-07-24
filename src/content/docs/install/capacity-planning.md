@@ -58,7 +58,7 @@ Reduce trace volume at the source with head or tail sampling in the collector. S
 High-cardinality metric attributes explode the number of time series. Drop or aggregate unbounded labels (user IDs, full URLs) before they reach ClickHouse.
 
 :::caution
-A single unbounded metric label can multiply your time-series count by thousands and overwhelm memory. Audit metric attributes before scaling ingest. See [core concepts](/overview/core-concepts/) on cardinality.
+A single unbounded metric label can multiply your time-series count by thousands and overwhelm memory. Audit metric attributes before scaling ingest. See [core concepts](/mindops-docs/overview/core-concepts/) on cardinality.
 :::
 
 ### Retention
@@ -74,4 +74,4 @@ Shortening retention reclaims disk immediately as old partitions drop. It is the
 
 ## Monitoring the monitor
 
-Track ClickHouse disk usage, ingest lag, and query latency over time. When disk trends toward your ceiling, either shorten retention, add sampling, or grow the volume. Plan capacity reviews alongside the [architecture](/overview/architecture/) you deployed.
+Track ClickHouse disk usage, ingest lag, and query latency over time. When disk trends toward your ceiling, either shorten retention, add sampling, or grow the volume. Plan capacity reviews alongside the [architecture](/mindops-docs/overview/architecture/) you deployed.

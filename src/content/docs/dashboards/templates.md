@@ -42,7 +42,7 @@ There are two common paths.
 
 ### From JSON
 
-If you have the template JSON (for example pulled from a shared repository), use **New then Import JSON** and paste it. See [Import and Share](/dashboards/import-and-share/) for the full flow.
+If you have the template JSON (for example pulled from a shared repository), use **New then Import JSON** and paste it. See [Import and Share](/mindops-docs/dashboards/import-and-share/) for the full flow.
 
 ```text
 Dashboards  ->  New  ->  Import JSON  ->  paste template JSON  ->  Import
@@ -63,4 +63,4 @@ Clone the template first, then edit the clone. That way you keep a clean copy to
 
 ## Building your own
 
-Once you outgrow the defaults, build bespoke dashboards with the [Query Builder](/querying/query-builder/) and choose appropriate [Panel Types](/dashboards/panel-types/). Use [Variables](/dashboards/variables/) to keep them reusable, and commit the exported JSON to git so your custom templates are versioned alongside your code.
+Once you outgrow the defaults, build bespoke dashboards with the [Query Builder](/mindops-docs/querying/query-builder/) and choose appropriate [Panel Types](/mindops-docs/dashboards/panel-types/). Use [Variables](/mindops-docs/dashboards/variables/) to keep them reusable, and commit the exported JSON to git so your custom templates are versioned alongside your code.

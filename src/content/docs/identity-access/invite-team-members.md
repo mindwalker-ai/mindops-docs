@@ -8,7 +8,7 @@ The most common way to add people to MindOps is to invite them by email. An admi
 ## Prerequisite: SMTP
 
 :::caution
-Email invitations require a working SMTP relay. If MindOps cannot send mail, invites are created but never delivered. Configure SMTP first, see [Server configuration](/manage/configuration/) for the relevant environment variables.
+Email invitations require a working SMTP relay. If MindOps cannot send mail, invites are created but never delivered. Configure SMTP first, see [Server configuration](/mindops-docs/manage/configuration/) for the relevant environment variables.
 :::
 
 A quick way to confirm SMTP is wired up: send one invite to an address you control and verify the message arrives.
@@ -21,7 +21,7 @@ You must be an **Admin** to invite users.
 2. Open the user management area under settings (often **Settings → Members** or **Users**).
 3. Choose **Invite member**.
 4. Enter the recipient's **email address**.
-5. Select the **role** to assign: Viewer, Editor, or Admin. See [Roles and permissions](/identity-access/roles-and-permissions/) for what each can do.
+5. Select the **role** to assign: Viewer, Editor, or Admin. See [Roles and permissions](/mindops-docs/identity-access/roles-and-permissions/) for what each can do.
 6. Send the invite.
 
 The recipient receives an email with a link to accept. After they set a password, they appear in your members list with the assigned role.
@@ -54,11 +54,11 @@ From the members screen an Admin can:
 
 When SMTP is not available, or you are bootstrapping the very first account, you have two alternatives:
 
-- Configure [SAML](/identity-access/sso-saml/) or [OIDC](/identity-access/sso-oidc/) SSO so users sign in through your identity provider and are provisioned on first login.
-- For automation rather than people, create a [service account](/identity-access/service-accounts/) with an API key.
+- Configure [SAML](/mindops-docs/identity-access/sso-saml/) or [OIDC](/mindops-docs/identity-access/sso-oidc/) SSO so users sign in through your identity provider and are provisioned on first login.
+- For automation rather than people, create a [service account](/mindops-docs/identity-access/service-accounts/) with an API key.
 
 ## Troubleshooting
 
 - **Invite never arrives:** check spam, then verify SMTP credentials and the `MINDOPS_SMTP_*` settings.
-- **Accept link is broken:** confirm the external base URL is set correctly so links point at the real host. See [Server configuration](/manage/configuration/).
-- **User cannot do something:** check their role against the [permission matrix](/identity-access/roles-and-permissions/).
+- **Accept link is broken:** confirm the external base URL is set correctly so links point at the real host. See [Server configuration](/mindops-docs/manage/configuration/).
+- **User cannot do something:** check their role against the [permission matrix](/mindops-docs/identity-access/roles-and-permissions/).

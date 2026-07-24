@@ -73,8 +73,8 @@ independently, you operate and back up one ClickHouse cluster.
 
 :::note
 Self-hosted MindOps needs no ingestion key. Reuse your Prometheus scrape configs inside
-the Collector to minimize rework. See the [Introduction](/introduction/) for the model.
+the Collector to minimize rework. See the [Introduction](/mindops-docs/introduction/) for the model.
 :::
 
-Other guides: [Datadog](/migration/from-datadog/),
-[New Relic](/migration/from-new-relic/), [ELK](/migration/from-elk/).
+Other guides: [Datadog](/mindops-docs/migration/from-datadog/),
+[New Relic](/mindops-docs/migration/from-new-relic/), [ELK](/mindops-docs/migration/from-elk/).

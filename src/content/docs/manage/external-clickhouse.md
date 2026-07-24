@@ -57,4 +57,4 @@ Keep credentials out of source control. Inject the DSN through your secret manag
 
 ## Operational ownership
 
-With an external store, retention is still configured in MindOps (see [Retention](/manage/retention-period/)), but disk capacity, backups, and node health become the responsibility of whoever runs the cluster. Document clearly which team owns which layer.
+With an external store, retention is still configured in MindOps (see [Retention](/mindops-docs/manage/retention-period/)), but disk capacity, backups, and node health become the responsibility of whoever runs the cluster. Document clearly which team owns which layer.

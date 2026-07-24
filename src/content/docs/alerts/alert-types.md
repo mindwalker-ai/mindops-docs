@@ -53,4 +53,4 @@ Apdex condenses latency into a single satisfaction score between 0 and 1 using a
 - You care about crashes and stack traces? **Exceptions.**
 - You want a user-experience score? **Apdex.**
 
-See [Building metric, log & trace alerts](/alerts/metric-log-trace-alerts/) to assemble your first rule.
+See [Building metric, log & trace alerts](/mindops-docs/alerts/metric-log-trace-alerts/) to assemble your first rule.

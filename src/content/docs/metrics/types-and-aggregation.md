@@ -80,8 +80,8 @@ together to see both.
 :::note
 Percentiles are only valid on histogram metrics. If you only have a gauge, you
 cannot recover percentiles after the fact — instrument with a histogram. See
-[Send Metrics](/metrics/send-metrics/).
+[Send Metrics](/mindops-docs/metrics/send-metrics/).
 :::
 
 Apply these concepts in the
-[Metrics query builder](/metrics/querying-metrics/).
+[Metrics query builder](/mindops-docs/metrics/querying-metrics/).

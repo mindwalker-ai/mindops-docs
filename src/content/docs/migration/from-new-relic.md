@@ -63,8 +63,8 @@ logs, metrics, and alerts all work for one service de-risks the whole program.
 
 :::note
 Self-hosted MindOps needs no ingestion or license key — telemetry flows over plain OTLP
-(`:4317`/`:4318`). See the [Introduction](/introduction/) for the target architecture.
+(`:4317`/`:4318`). See the [Introduction](/mindops-docs/introduction/) for the target architecture.
 :::
 
-Other guides: [Datadog](/migration/from-datadog/),
-[Grafana stack](/migration/from-grafana/), [ELK](/migration/from-elk/).
+Other guides: [Datadog](/mindops-docs/migration/from-datadog/),
+[Grafana stack](/mindops-docs/migration/from-grafana/), [ELK](/mindops-docs/migration/from-elk/).

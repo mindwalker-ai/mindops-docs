@@ -38,7 +38,7 @@ Every span carries a status code:
 
 - `Unset` — no explicit status (treated as success)
 - `Ok` — explicitly marked successful
-- `Error` — the operation failed; these are what error filters in the [Trace Explorer](/traces/trace-explorer/) match
+- `Error` — the operation failed; these are what error filters in the [Trace Explorer](/mindops-docs/traces/trace-explorer/) match
 
 ```text
 status.code    = ERROR
@@ -49,4 +49,4 @@ status.message = "connection reset by peer"
 
 Distributed traces and logs share the same `trace_id`. From a span detail panel, use **View logs** to pivot straight to every log line emitted during that span's execution. This turns "the span errored" into "here is the exact log line and stack trace that explains why."
 
-See [Correlate Traces and Logs](/traces/correlate-traces-and-logs/) for how to ensure your logs carry the trace context that makes this jump possible.
+See [Correlate Traces and Logs](/mindops-docs/traces/correlate-traces-and-logs/) for how to ensure your logs carry the trace context that makes this jump possible.

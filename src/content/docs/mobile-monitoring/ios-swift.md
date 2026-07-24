@@ -83,4 +83,4 @@ The `URLSession` instrumentation creates a span for each HTTP request automatica
 - Remove tokens and personal data from span attributes and URLs.
 - Buffer spans while offline and flush when connectivity returns.
 
-See the [Mobile monitoring overview](/mobile-monitoring/overview/) for the gateway Collector pattern.
+See the [Mobile monitoring overview](/mindops-docs/mobile-monitoring/overview/) for the gateway Collector pattern.

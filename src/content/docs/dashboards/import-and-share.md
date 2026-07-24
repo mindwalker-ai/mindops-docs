@@ -68,4 +68,4 @@ Never put credentials, customer identifiers, or other secrets into panel titles,
 3. Import the committed JSON into other environments.
 4. Adjust variables per environment rather than forking the file.
 
-For organizing the boards you import, see [Manage Dashboards](/dashboards/manage-dashboards/) and the ready-made [Templates](/dashboards/templates/).
+For organizing the boards you import, see [Manage Dashboards](/mindops-docs/dashboards/manage-dashboards/) and the ready-made [Templates](/mindops-docs/dashboards/templates/).

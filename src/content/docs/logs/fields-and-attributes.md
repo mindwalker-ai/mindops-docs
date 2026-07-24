@@ -80,6 +80,6 @@ into attributes you can filter and group by.
 
 :::note
 Parsing JSON bodies, mapping `level` to severity, and extracting `trace_id` are
-all handled by [Log Pipelines](/logs/pipelines/) and the recipes in
-[Parsing Guides](/logs/parsing-guides/).
+all handled by [Log Pipelines](/mindops-docs/logs/pipelines/) and the recipes in
+[Parsing Guides](/mindops-docs/logs/parsing-guides/).
 :::

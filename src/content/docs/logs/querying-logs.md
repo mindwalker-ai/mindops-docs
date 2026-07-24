@@ -88,4 +88,4 @@ it to embed log metrics in external dashboards, CI checks, or scripts. The UI is
 the quickest way to author a query before lifting it into code.
 
 For interactive searching and saved views, see the
-[Log Explorer](/logs/log-explorer/).
+[Log Explorer](/mindops-docs/logs/log-explorer/).

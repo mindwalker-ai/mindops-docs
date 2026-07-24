@@ -3,7 +3,7 @@ title: Kubernetes on AWS (EKS)
 description: EKS-specific guidance for running MindOps, covering gp3 storage classes, LoadBalancer and ingress access, and node sizing.
 ---
 
-This guide covers the AWS-specific pieces of a MindOps install on Amazon EKS. Follow the general [Kubernetes guide](/install/kubernetes/) for the Helm workflow; the notes below adapt it to EKS.
+This guide covers the AWS-specific pieces of a MindOps install on Amazon EKS. Follow the general [Kubernetes guide](/mindops-docs/install/kubernetes/) for the Helm workflow; the notes below adapt it to EKS.
 
 ## Prerequisites
 
@@ -97,4 +97,4 @@ Keep the OTLP endpoints (`4317`/`4318`) on an **internal** load balancer or insi
 
 In-cluster apps use the collector service name. For workloads outside the cluster but inside the VPC, use the internal load balancer DNS name with `OTEL_EXPORTER_OTLP_ENDPOINT`. No API key is needed.
 
-For teardown, follow the [uninstall guide](/install/uninstall/) and confirm EBS volumes and load balancers are removed to stop AWS charges.
+For teardown, follow the [uninstall guide](/mindops-docs/install/uninstall/) and confirm EBS volumes and load balancers are removed to stop AWS charges.

@@ -75,4 +75,4 @@ Exceptions rule: frequent exception
 
 ## Choosing between them
 
-Use an **anomaly** alert when the question is "is this number behaving unusually?" Use an **exceptions** alert when the question is "is the application throwing something new or throwing too much?" They complement each other well: anomaly for trends, exceptions for failures. For static limits, return to [metric, log & trace alerts](/alerts/metric-log-trace-alerts/).
+Use an **anomaly** alert when the question is "is this number behaving unusually?" Use an **exceptions** alert when the question is "is the application throwing something new or throwing too much?" They complement each other well: anomaly for trends, exceptions for failures. For static limits, return to [metric, log & trace alerts](/mindops-docs/alerts/metric-log-trace-alerts/).

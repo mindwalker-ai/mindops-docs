@@ -72,5 +72,5 @@ pipeline with many conditional branches — it is far easier to reason about
 order and debug.
 :::
 
-For ready-made processor configs see [Parsing Guides](/logs/parsing-guides/),
-and for volume control see [Drop Logs](/logs/drop-logs/).
+For ready-made processor configs see [Parsing Guides](/mindops-docs/logs/parsing-guides/),
+and for volume control see [Drop Logs](/mindops-docs/logs/drop-logs/).

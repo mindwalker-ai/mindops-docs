@@ -74,5 +74,5 @@ Self-hosted MindOps requires no ingestion key. Apply RBAC granting the Collector
 service account read access to nodes, pods, and the kubelet stats endpoint.
 :::
 
-See the [AWS overview](/aws-monitoring/overview/) to combine this with CloudWatch pulls
+See the [AWS overview](/mindops-docs/aws-monitoring/overview/) to combine this with CloudWatch pulls
 for managed services in the same cluster.

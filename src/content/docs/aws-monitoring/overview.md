@@ -71,6 +71,6 @@ Self-hosted MindOps needs **no ingestion key**. Point the Collector's exporter a
 `:4317` (gRPC) or `:4318` (HTTP). Then open the UI at `http://localhost:8080`.
 :::
 
-Per-service guides cover the details: [EC2](/aws-monitoring/ec2/),
-[ECS](/aws-monitoring/ecs/), [EKS](/aws-monitoring/eks/),
-[Lambda](/aws-monitoring/lambda/), and [RDS](/aws-monitoring/rds/).
+Per-service guides cover the details: [EC2](/mindops-docs/aws-monitoring/ec2/),
+[ECS](/mindops-docs/aws-monitoring/ecs/), [EKS](/mindops-docs/aws-monitoring/eks/),
+[Lambda](/mindops-docs/aws-monitoring/lambda/), and [RDS](/mindops-docs/aws-monitoring/rds/).

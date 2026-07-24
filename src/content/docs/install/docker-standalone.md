@@ -101,4 +101,4 @@ To remove MindOps, stop the stack and delete its volumes:
 docker compose down -v
 ```
 
-Then remove the `casting.yaml` file and the `./data` directory. See the [uninstall guide](/install/uninstall/) for full cleanup steps across deployment types.
+Then remove the `casting.yaml` file and the `./data` directory. See the [uninstall guide](/mindops-docs/install/uninstall/) for full cleanup steps across deployment types.

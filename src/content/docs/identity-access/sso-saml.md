@@ -20,7 +20,7 @@ Configuring SSO requires the **Admin** role and access to your identity provider
 
 ## Step 1: Gather the SP values from MindOps
 
-In MindOps, open **Settings → SSO → SAML** and note the **ACS URL** and **Entity ID**. They are derived from your external base URL, so make sure that is set correctly first (see [Server configuration](/manage/configuration/)). They typically look like:
+In MindOps, open **Settings → SSO → SAML** and note the **ACS URL** and **Entity ID**. They are derived from your external base URL, so make sure that is set correctly first (see [Server configuration](/mindops-docs/manage/configuration/)). They typically look like:
 
 ```text
 ACS URL:    https://observe.example.com/api/v1/complete/saml
@@ -54,7 +54,7 @@ mindops-editors  → Editor
 mindops-viewers  → Viewer
 ```
 
-Users land in MindOps with the role matching their IdP group. See [Roles and permissions](/identity-access/roles-and-permissions/) for what each grants. If no group matches, assign a safe default such as Viewer.
+Users land in MindOps with the role matching their IdP group. See [Roles and permissions](/mindops-docs/identity-access/roles-and-permissions/) for what each grants. If no group matches, assign a safe default such as Viewer.
 
 ## Step 5: Finish in MindOps
 
@@ -72,4 +72,4 @@ Keep one local Admin account that does not depend on SSO. If the IdP connection 
 - **Redirect loops or wrong host:** the external base URL does not match the ACS URL registered in the IdP.
 - **User logs in but has no access:** the `groups` claim is missing or no group maps to a role.
 
-Prefer a different protocol? See [OIDC SSO](/identity-access/sso-oidc/).
+Prefer a different protocol? See [OIDC SSO](/mindops-docs/identity-access/sso-oidc/).

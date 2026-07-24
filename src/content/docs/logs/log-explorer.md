@@ -74,8 +74,8 @@ A good view encodes both the filter and the column set you want to read.
 :::note
 Selecting a log line with a `trace_id` lets you jump straight to its
 distributed trace, and back again. See
-[Application Logs](/logs/application-logs/) for how correlation is wired up.
+[Application Logs](/mindops-docs/logs/application-logs/) for how correlation is wired up.
 :::
 
 For query syntax and aggregations, see
-[Querying Logs](/logs/querying-logs/).
+[Querying Logs](/mindops-docs/logs/querying-logs/).

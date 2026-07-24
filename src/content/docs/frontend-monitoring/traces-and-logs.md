@@ -88,4 +88,4 @@ Without `cors.allowed_origins`, the browser silently blocks the export and you w
 - Batch exports (the default) to avoid a request per span.
 - Scrub sensitive values from URLs and log bodies before they leave the browser.
 
-For the SDK setup basics, see the [Frontend monitoring overview](/frontend-monitoring/overview/).
+For the SDK setup basics, see the [Frontend monitoring overview](/mindops-docs/frontend-monitoring/overview/).

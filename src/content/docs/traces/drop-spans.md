@@ -13,7 +13,7 @@ Not every span is worth storing. Health checks, readiness probes, static-asset r
 | `transform` | Edit, redact, or selectively drop using OTTL |
 | `tail_sampling` | Keep/drop *entire traces* based on latency or status |
 
-For volume control by span *name or attribute*, reach for `filter`/`transform`. For latency- or error-aware decisions on whole traces, use [tail sampling](/traces/tail-sampling/).
+For volume control by span *name or attribute*, reach for `filter`/`transform`. For latency- or error-aware decisions on whole traces, use [tail sampling](/mindops-docs/traces/tail-sampling/).
 
 ## Dropping health-check spans with `filter`
 
@@ -69,4 +69,4 @@ service:
 Dropped spans are gone — they are never sent to MindOps and cannot be recovered. Test conditions against a copy of your pipeline (or a debug exporter) before rolling out, so you do not silently discard traffic you actually need.
 :::
 
-See the [Collector configuration anatomy](/collection-agents/collector-configuration/) for how receivers, processors, and exporters fit together.
+See the [Collector configuration anatomy](/mindops-docs/collection-agents/collector-configuration/) for how receivers, processors, and exporters fit together.

@@ -103,4 +103,4 @@ kubectl delete namespace mindops
 - [ ] Load balancers and reserved IPs released.
 - [ ] Applications no longer export to the old collector endpoint.
 
-Reinstalling later is straightforward from the [installation overview](/install/overview/). If you kept your volumes, a fresh install can reattach to existing data.
+Reinstalling later is straightforward from the [installation overview](/mindops-docs/install/overview/). If you kept your volumes, a fresh install can reattach to existing data.

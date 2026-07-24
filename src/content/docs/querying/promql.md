@@ -14,7 +14,7 @@ PromQL is a good fit when:
 - You prefer the compact PromQL idiom for metric math.
 
 :::note
-PromQL works on **metrics only**. To query logs or traces, use the [Query Builder](/querying/query-builder/) or [ClickHouse SQL](/querying/clickhouse-queries/).
+PromQL works on **metrics only**. To query logs or traces, use the [Query Builder](/mindops-docs/querying/query-builder/) or [ClickHouse SQL](/mindops-docs/querying/clickhouse-queries/).
 :::
 
 ## Example expressions
@@ -83,4 +83,4 @@ For counters, always wrap them in `rate()` or `increase()`. Charting a raw count
 Broad regex matchers like `service_name=~".*"` over high-cardinality labels can be slow. Match as specifically as possible and keep range windows reasonable.
 :::
 
-For an overview of all three query modes and how to choose, see [Querying Overview](/querying/overview/).
+For an overview of all three query modes and how to choose, see [Querying Overview](/mindops-docs/querying/overview/).

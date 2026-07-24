@@ -92,4 +92,4 @@ Add a `debug` exporter to a pipeline temporarily to print records to the Collect
 The MindOps OTLP endpoint requires no ingestion key for self-hosted deployments — no auth header is needed in the exporter. The UI is reachable at `http://localhost:8080`.
 :::
 
-This same structure scales from a single [Docker container](/collection-agents/docker/) to a [Kubernetes gateway](/collection-agents/kubernetes/). For volume control, add a [filter processor](/traces/drop-spans/) or [tail sampling](/traces/tail-sampling/) to the traces pipeline.
+This same structure scales from a single [Docker container](/mindops-docs/collection-agents/docker/) to a [Kubernetes gateway](/mindops-docs/collection-agents/kubernetes/). For volume control, add a [filter processor](/mindops-docs/traces/drop-spans/) or [tail sampling](/mindops-docs/traces/tail-sampling/) to the traces pipeline.

@@ -20,7 +20,7 @@ error rate, and throughput — no separate APM agent required.
 2. Set `OTEL_SERVICE_NAME` and `OTEL_EXPORTER_OTLP_ENDPOINT`.
 3. Initialize the SDK **before** the rest of your app loads.
 
-See **[Send Your First Data](/get-started/send-data/)** for a runnable Node.js example.
+See **[Send Your First Data](/mindops-docs/get-started/send-data/)** for a runnable Node.js example.
 
 ## Auto vs manual instrumentation
 

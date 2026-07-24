@@ -114,4 +114,4 @@ Both frameworks export over OTLP/HTTP (`/v1/traces`, port `4318` at the gateway)
 - Batch exports to save battery and mobile data.
 - Keep tokens and PII out of span attributes and URLs.
 
-See the [Mobile monitoring overview](/mobile-monitoring/overview/) for the gateway pattern.
+See the [Mobile monitoring overview](/mindops-docs/mobile-monitoring/overview/) for the gateway pattern.

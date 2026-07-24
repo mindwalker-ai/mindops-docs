@@ -89,4 +89,4 @@ A common pattern:
 2. Add a dependent variable `endpoint` filtered by `{{service}}`.
 3. Reference both in every panel's filters.
 
-One dashboard now works for any service without duplication. To package and reuse such a dashboard across environments, see [Import and Share](/dashboards/import-and-share/).
+One dashboard now works for any service without duplication. To package and reuse such a dashboard across environments, see [Import and Share](/mindops-docs/dashboards/import-and-share/).

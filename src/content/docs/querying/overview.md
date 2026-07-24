@@ -17,7 +17,7 @@ Every panel and alert has a mode switcher, so you can start in the Builder and d
 
 ## Query Builder
 
-The [Query Builder](/querying/query-builder/) is the default. You choose a data source, an aggregation, filters, and group-by dimensions from dropdowns. It is the quickest path for most questions and unifies metrics, logs, and traces under one interface.
+The [Query Builder](/mindops-docs/querying/query-builder/) is the default. You choose a data source, an aggregation, filters, and group-by dimensions from dropdowns. It is the quickest path for most questions and unifies metrics, logs, and traces under one interface.
 
 Reach for the Builder when:
 
@@ -27,7 +27,7 @@ Reach for the Builder when:
 
 ## ClickHouse SQL
 
-MindOps stores all telemetry in ClickHouse, and the [ClickHouse query mode](/querying/clickhouse-queries/) lets you write SQL directly against those tables. This unlocks joins, subqueries, window functions, and any aggregation ClickHouse supports.
+MindOps stores all telemetry in ClickHouse, and the [ClickHouse query mode](/mindops-docs/querying/clickhouse-queries/) lets you write SQL directly against those tables. This unlocks joins, subqueries, window functions, and any aggregation ClickHouse supports.
 
 Reach for ClickHouse SQL when:
 
@@ -44,7 +44,7 @@ GROUP BY t ORDER BY t
 
 ## PromQL
 
-For metrics, MindOps also accepts [PromQL](/querying/promql/), the Prometheus query language. If your team already writes PromQL, you can paste those expressions straight into a panel.
+For metrics, MindOps also accepts [PromQL](/mindops-docs/querying/promql/), the Prometheus query language. If your team already writes PromQL, you can paste those expressions straight into a panel.
 
 Reach for PromQL when:
 
@@ -71,4 +71,4 @@ A simple rule of thumb:
 You can mix modes across panels on the same dashboard. One panel can be a Builder query while another runs raw SQL — the dashboard renders them together.
 :::
 
-Next, learn the [Query Builder](/querying/query-builder/) in depth, or jump to [search syntax](/querying/search-syntax/) for how filters are written.
+Next, learn the [Query Builder](/mindops-docs/querying/query-builder/) in depth, or jump to [search syntax](/mindops-docs/querying/search-syntax/) for how filters are written.

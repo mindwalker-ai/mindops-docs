@@ -19,10 +19,10 @@ Use a descriptive name and tags (for example `team:payments`, `env:prod`) so das
 
 ## Add and configure panels
 
-Inside an open dashboard, click **Add Panel** and choose a panel type (see [Panel Types](/dashboards/panel-types/)). For each panel:
+Inside an open dashboard, click **Add Panel** and choose a panel type (see [Panel Types](/mindops-docs/dashboards/panel-types/)). For each panel:
 
 - Pick the **data source** — metrics, logs, or traces.
-- Build the query in the [Query Builder](/querying/query-builder/), or switch to ClickHouse / PromQL mode.
+- Build the query in the [Query Builder](/mindops-docs/querying/query-builder/), or switch to ClickHouse / PromQL mode.
 - Set a panel **title**, unit, and legend format.
 - Save the panel to drop it onto the dashboard grid.
 
@@ -59,10 +59,10 @@ Auto-refresh keeps querying ClickHouse on every tick. For long ranges on busy da
 - **Clone** — Use **Clone Dashboard** to duplicate the whole board as a starting point, or clone a single panel from its menu.
 - **Delete** — Remove a dashboard from its settings menu. This cannot be undone, so export the JSON first if you may need it again.
 
-To move dashboards between environments or back them up, see [Import and Share](/dashboards/import-and-share/).
+To move dashboards between environments or back them up, see [Import and Share](/mindops-docs/dashboards/import-and-share/).
 
 ## Good practices
 
 - Keep one dashboard focused on a single service or concern rather than mixing everything.
 - Put the most important signals (error rate, latency, saturation) in the top row.
-- Use variables for reusable filters so one dashboard serves many hosts or services — see [Variables](/dashboards/variables/).
+- Use variables for reusable filters so one dashboard serves many hosts or services — see [Variables](/mindops-docs/dashboards/variables/).

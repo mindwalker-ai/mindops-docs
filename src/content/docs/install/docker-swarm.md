@@ -100,4 +100,4 @@ docker stack rm mindops
 docker network rm mindops-net
 ```
 
-Removing the stack does not delete pinned volumes; clean those up on the storage nodes. See the [uninstall guide](/install/uninstall/) for details.
+Removing the stack does not delete pinned volumes; clean those up on the storage nodes. See the [uninstall guide](/mindops-docs/install/uninstall/) for details.

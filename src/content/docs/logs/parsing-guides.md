@@ -3,7 +3,7 @@ title: Log Parsing Guides
 description: Practical parsing recipes for MindOps log pipelines — JSON, Grok, regex, timestamp, severity, and trace-id extraction with short configs.
 ---
 
-These recipes are the building blocks of a [log pipeline](/logs/pipelines/).
+These recipes are the building blocks of a [log pipeline](/mindops-docs/logs/pipelines/).
 Each shows a small processor config you can drop in and adapt. Processors run in
 order, so place each recipe where its input field already exists.
 
@@ -98,4 +98,4 @@ emitter, log JSON and use the cheap `json_parser`.
 :::
 
 To strip fields or discard records after parsing, see
-[Drop Logs](/logs/drop-logs/).
+[Drop Logs](/mindops-docs/logs/drop-logs/).

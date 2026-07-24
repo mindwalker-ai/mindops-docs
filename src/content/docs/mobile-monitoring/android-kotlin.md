@@ -107,4 +107,4 @@ val resource = Resource.getDefault().merge(
 - Batch exports to conserve battery and data.
 - Strip auth tokens and PII from span attributes and captured URLs.
 
-See the [Mobile monitoring overview](/mobile-monitoring/overview/) for the gateway pattern.
+See the [Mobile monitoring overview](/mindops-docs/mobile-monitoring/overview/) for the gateway pattern.

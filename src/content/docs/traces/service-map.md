@@ -42,4 +42,4 @@ The map is built for answering "where is the problem actually coming from?"
 High error rate on a *node* but green *edges* points at internal failures — bad deploys, unhandled exceptions, resource exhaustion. High error rate on an *edge* points at the connection or the callee.
 :::
 
-From any node or edge, drill into the matching spans in the [Trace Explorer](/traces/trace-explorer/) to move from "this hop is slow" to the exact traces proving it.
+From any node or edge, drill into the matching spans in the [Trace Explorer](/mindops-docs/traces/trace-explorer/) to move from "this hop is slow" to the exact traces proving it.

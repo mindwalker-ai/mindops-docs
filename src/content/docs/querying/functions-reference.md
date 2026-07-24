@@ -7,7 +7,7 @@ Beyond aggregation, MindOps offers a set of post-processing functions that trans
 
 ## Where functions apply
 
-A function takes the series produced by your [Query Builder](/querying/query-builder/) query and returns a new series. You add them as a function step on the query, and you can stack several — they apply in order, top to bottom.
+A function takes the series produced by your [Query Builder](/mindops-docs/querying/query-builder/) query and returns a new series. You add them as a function step on the query, and you can stack several — they apply in order, top to bottom.
 
 ## Smoothing functions
 
@@ -87,4 +87,4 @@ Smoothing after clipping gives a cleaner trend than smoothing first and clipping
 Heavy smoothing and clipping can hide real incidents — a clamped or EWMA'd series may mask a brief spike. Use these for trend dashboards, but alert on the raw, unsmoothed query.
 :::
 
-For the aggregation step that produces the series these functions transform, see [Aggregation and Grouping](/querying/aggregation-grouping/).
+For the aggregation step that produces the series these functions transform, see [Aggregation and Grouping](/mindops-docs/querying/aggregation-grouping/).

@@ -85,4 +85,4 @@ networks:
 Application containers should export to `http://otel-collector:4317`, not directly to MindOps. The Collector handles batching, retries, and enrichment on their behalf.
 :::
 
-A self-hosted MindOps OTLP endpoint requires no ingestion key. See [Collector Configuration](/collection-agents/collector-configuration/) for full pipeline details.
+A self-hosted MindOps OTLP endpoint requires no ingestion key. See [Collector Configuration](/mindops-docs/collection-agents/collector-configuration/) for full pipeline details.

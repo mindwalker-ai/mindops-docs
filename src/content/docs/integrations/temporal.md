@@ -89,4 +89,4 @@ Self-hosted MindOps needs no ingestion key. Combine the metrics dashboard with t
 a failure spike links straight to the workflow execution that caused it.
 :::
 
-See [Integrations Overview](/integrations/overview/) for the general Collector pattern.
+See [Integrations Overview](/mindops-docs/integrations/overview/) for the general Collector pattern.

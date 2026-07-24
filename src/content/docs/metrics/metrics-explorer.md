@@ -78,8 +78,8 @@ dimensions such as `route`, `region`, or `status_code`.
 :::note
 Percentile aggregations (`p99`) are only meaningful on **histogram** metrics.
 On a gauge or sum, use `avg`/`max`/`sum` instead — see
-[Types and Aggregation](/metrics/types-and-aggregation/).
+[Types and Aggregation](/mindops-docs/metrics/types-and-aggregation/).
 :::
 
 For the full query model with formulas, see
-[Querying Metrics](/metrics/querying-metrics/).
+[Querying Metrics](/mindops-docs/metrics/querying-metrics/).

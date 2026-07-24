@@ -22,7 +22,7 @@ export OTEL_EXPORTER_OTLP_PROTOCOL="grpc"
 export OTEL_RESOURCE_ATTRIBUTES="service.name=checkout"
 ```
 
-See [Application Logs](/logs/application-logs/) for per-language setup.
+See [Application Logs](/mindops-docs/logs/application-logs/) for per-language setup.
 
 ### 2. Collector filelog receiver (from files on disk)
 
@@ -86,4 +86,4 @@ receiver for third-party services that only write files.
 :::
 
 Once data is flowing, open the UI at `http://localhost:8080` and explore it in
-the [Log Explorer](/logs/log-explorer/).
+the [Log Explorer](/mindops-docs/logs/log-explorer/).

@@ -90,4 +90,4 @@ Order by: timestamp desc
 | Histogram | Value distribution | Yes |
 | List | Raw events / log feed | No |
 
-For building the queries behind any of these, see the [Query Builder](/querying/query-builder/).
+For building the queries behind any of these, see the [Query Builder](/mindops-docs/querying/query-builder/).

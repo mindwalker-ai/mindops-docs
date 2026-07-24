@@ -75,7 +75,7 @@ formula: A / B * 100        # error percentage
 :::tip
 Always `rate` a cumulative counter before summing or grouping — summing raw
 cumulative values gives a meaningless climbing line. See
-[Types and Aggregation](/metrics/types-and-aggregation/).
+[Types and Aggregation](/mindops-docs/metrics/types-and-aggregation/).
 :::
 
 ## query-range API note
@@ -84,5 +84,5 @@ Every chart you build maps onto the MindOps query-range API. You send the same
 metric, aggregations, filters, group-by, and formulas as a JSON payload and get
 back time series, so dashboards, alerts, and external tools all run the identical
 query engine. Author a query visually in the
-[Metrics Explorer](/metrics/metrics-explorer/), then lift it into code or an
+[Metrics Explorer](/mindops-docs/metrics/metrics-explorer/), then lift it into code or an
 alert rule unchanged.

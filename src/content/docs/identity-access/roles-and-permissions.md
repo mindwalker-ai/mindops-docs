@@ -48,11 +48,11 @@ Permissions are additive up the chain: an Editor can do everything a Viewer can,
 - **Give Admin** only to the platform owners who manage users, settings, and access.
 
 :::tip
-When using [SAML](/identity-access/sso-saml/) or [OIDC](/identity-access/sso-oidc/) SSO, map identity-provider groups to these roles so access reflects your directory automatically. A user who leaves a group loses the matching role on their next sign-in.
+When using [SAML](/mindops-docs/identity-access/sso-saml/) or [OIDC](/mindops-docs/identity-access/sso-oidc/) SSO, map identity-provider groups to these roles so access reflects your directory automatically. A user who leaves a group loses the matching role on their next sign-in.
 :::
 
 ## Changing a user's role
 
 An Admin can change any user's role from the user management screen under settings. The change takes effect on the user's next session. Demoting a user never deletes their content; dashboards and alerts they created remain owned by the organization.
 
-For how roles are assigned when adding people, see [Inviting team members](/identity-access/invite-team-members/).
+For how roles are assigned when adding people, see [Inviting team members](/mindops-docs/identity-access/invite-team-members/).

@@ -34,7 +34,7 @@ The **for-duration** guard is what prevents flapping. Requiring "above 5% for 5 
 Assign a severity - `info`, `warning`, `error`, or `critical` - so routing policies can send each level to the right place. Then attach one or more notification channels and write a message template. Templates can interpolate label values, for example the offending `{{service.name}}`.
 
 :::note
-Severity is just a label until a routing policy acts on it. See [Planned maintenance & routing](/alerts/planned-maintenance-and-routing/).
+Severity is just a label until a routing policy acts on it. See [Planned maintenance & routing](/mindops-docs/alerts/planned-maintenance-and-routing/).
 :::
 
 ## Worked example: HTTP error rate
@@ -69,4 +69,4 @@ When the formula stays above 5 for the full window, MindOps fires one alert per 
 - Use `group by` sparingly on high-cardinality labels to avoid alert storms.
 - Test the underlying query in a dashboard first so you know it returns data.
 
-For seasonal signals that defeat fixed thresholds, switch to an [anomaly alert](/alerts/anomaly-and-exceptions-alerts/).
+For seasonal signals that defeat fixed thresholds, switch to an [anomaly alert](/mindops-docs/alerts/anomaly-and-exceptions-alerts/).

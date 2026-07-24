@@ -104,5 +104,5 @@ sudo foundryctl cast --file /etc/mindops/casting.yaml --uninstall
 ```
 
 :::caution
-Removing MindOps does not drop the ClickHouse database. To delete telemetry permanently, drop the MindOps databases in ClickHouse and remove `/var/lib/mindops/`. See the [uninstall guide](/install/uninstall/).
+Removing MindOps does not drop the ClickHouse database. To delete telemetry permanently, drop the MindOps databases in ClickHouse and remove `/var/lib/mindops/`. See the [uninstall guide](/mindops-docs/install/uninstall/).
 :::

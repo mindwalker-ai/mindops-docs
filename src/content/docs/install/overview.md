@@ -9,13 +9,13 @@ MindOps runs entirely on your own infrastructure. This page helps you pick a dep
 
 | Option | Best for | Effort | Scales to |
 | --- | --- | --- | --- |
-| [Docker Standalone](/install/docker-standalone/) | Local trials, demos, small single-node setups | Lowest | One host |
-| [Docker Swarm](/install/docker-swarm/) | Small clusters wanting simple multi-node | Low | A few nodes |
-| [Linux (native)](/install/linux/) | VMs without a container runtime | Medium | One host |
-| [Kubernetes](/install/kubernetes/) | Production, HA, autoscaling | Higher | Many nodes |
-| [AWS ECS](/install/ecs/) | AWS shops standardized on ECS | Medium | Many tasks |
+| [Docker Standalone](/mindops-docs/install/docker-standalone/) | Local trials, demos, small single-node setups | Lowest | One host |
+| [Docker Swarm](/mindops-docs/install/docker-swarm/) | Small clusters wanting simple multi-node | Low | A few nodes |
+| [Linux (native)](/mindops-docs/install/linux/) | VMs without a container runtime | Medium | One host |
+| [Kubernetes](/mindops-docs/install/kubernetes/) | Production, HA, autoscaling | Higher | Many nodes |
+| [AWS ECS](/mindops-docs/install/ecs/) | AWS shops standardized on ECS | Medium | Many tasks |
 
-For cloud-managed Kubernetes, see the [AWS EKS](/install/kubernetes-aws/) and [GCP GKE](/install/kubernetes-gcp/) guides.
+For cloud-managed Kubernetes, see the [AWS EKS](/mindops-docs/install/kubernetes-aws/) and [GCP GKE](/mindops-docs/install/kubernetes-gcp/) guides.
 
 ## Which should I pick?
 
@@ -66,4 +66,4 @@ Self-hosted MindOps needs **no ingestion key**. Applications send OTLP straight 
 2. Point a service at the collector with `OTEL_EXPORTER_OTLP_ENDPOINT=http://localhost:4317`.
 3. Watch your service appear in the services list.
 
-Ready to begin? The fastest path is [Docker Standalone](/install/docker-standalone/).
+Ready to begin? The fastest path is [Docker Standalone](/mindops-docs/install/docker-standalone/).

@@ -68,12 +68,12 @@ A common, dependable setup:
 - `info` -> email digest or no channel at all.
 
 :::note
-Routing reads the severity you set when [building the alert](/alerts/metric-log-trace-alerts/), so be deliberate about labeling each rule's urgency.
+Routing reads the severity you set when [building the alert](/mindops-docs/alerts/metric-log-trace-alerts/), so be deliberate about labeling each rule's urgency.
 :::
 
 ## Putting it together
 
-1. Define [notification channels](/alerts/notification-channels/) for each destination.
+1. Define [notification channels](/mindops-docs/alerts/notification-channels/) for each destination.
 2. Build a routing policy mapping severity and labels to those channels.
 3. Add maintenance windows for predictable disruptions.
 4. Review fired alerts periodically and adjust thresholds, routes, and windows.

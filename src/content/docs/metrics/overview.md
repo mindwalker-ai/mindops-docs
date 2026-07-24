@@ -32,9 +32,9 @@ multiple queries with math (sum, ratio, rate) to build derived signals such as e
 
 - **Application metrics** — emitted by your OpenTelemetry SDK.
 - **Infrastructure metrics** — CPU, memory, disk, and network from the collector's
-  `hostmetrics` receiver. See [Infrastructure Monitoring](/infrastructure/overview/).
+  `hostmetrics` receiver. See [Infrastructure Monitoring](/mindops-docs/infrastructure/overview/).
 
 ## From metrics to dashboards
 
 Any metric query can become a panel. Group related panels into a
-[dashboard](/dashboards/overview/) to get a single view of a system's health.
+[dashboard](/mindops-docs/dashboards/overview/) to get a single view of a system's health.

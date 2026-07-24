@@ -3,7 +3,7 @@ title: Kubernetes on GCP (GKE)
 description: GKE-specific guidance for running MindOps, covering balanced persistent-disk storage classes, regional clusters, and ingress.
 ---
 
-This guide covers the Google Cloud specifics for installing MindOps on GKE. Use the general [Kubernetes guide](/install/kubernetes/) for the Helm workflow; the notes here adapt it to GKE.
+This guide covers the Google Cloud specifics for installing MindOps on GKE. Use the general [Kubernetes guide](/mindops-docs/install/kubernetes/) for the Helm workflow; the notes here adapt it to GKE.
 
 ## Prerequisites
 
@@ -91,4 +91,4 @@ export OTEL_EXPORTER_OTLP_ENDPOINT=http://mindops-otel-collector.mindops:4317
 export OTEL_SERVICE_NAME=checkout-service
 ```
 
-For teardown, follow the [uninstall guide](/install/uninstall/) and confirm persistent disks and load balancers are deleted to stop GCP charges.
+For teardown, follow the [uninstall guide](/mindops-docs/install/uninstall/) and confirm persistent disks and load balancers are deleted to stop GCP charges.

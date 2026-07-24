@@ -64,4 +64,4 @@ Tail sampling requires that **all spans of a trace reach the same Collector inst
 
 - Order policies from most specific to least; the first *keep* wins.
 - Add a `string_attribute` policy to always retain traces for a critical tenant or route.
-- To simply discard noise without latency-based logic, prefer the lighter [span dropping](/traces/drop-spans/) approach instead.
+- To simply discard noise without latency-based logic, prefer the lighter [span dropping](/mindops-docs/traces/drop-spans/) approach instead.

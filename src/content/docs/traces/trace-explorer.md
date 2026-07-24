@@ -56,11 +56,11 @@ Group by:  service.name, http.route
 
 The explorer offers two complementary views:
 
-- **List view** — a flat, sortable table of individual spans. Best for inspecting specific requests; click any row to open the full [trace detail](/traces/trace-details/).
+- **List view** — a flat, sortable table of individual spans. Best for inspecting specific requests; click any row to open the full [trace detail](/mindops-docs/traces/trace-details/).
 - **Time-series view** — your aggregate plotted over the selected time range, one line per group. Best for spotting trends, spikes, and regressions.
 
 :::note
 Save a filter-plus-aggregate combination as a view so teammates open the explorer already scoped to the service they own.
 :::
 
-Once you have isolated an interesting span, open its trace to see the full request path, then pivot to [correlated logs](/traces/correlate-traces-and-logs/) for the same `trace_id`.
+Once you have isolated an interesting span, open its trace to see the full request path, then pivot to [correlated logs](/mindops-docs/traces/correlate-traces-and-logs/) for the same `trace_id`.

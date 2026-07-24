@@ -82,5 +82,5 @@ latency). Use a **gauge** for an instantaneous reading where averaging across
 time would be misleading (e.g. current connections).
 
 Once metrics arrive, explore them in the
-[Metrics Explorer](/metrics/metrics-explorer/) and read about
-[types and aggregation](/metrics/types-and-aggregation/).
+[Metrics Explorer](/mindops-docs/metrics/metrics-explorer/) and read about
+[types and aggregation](/mindops-docs/metrics/types-and-aggregation/).

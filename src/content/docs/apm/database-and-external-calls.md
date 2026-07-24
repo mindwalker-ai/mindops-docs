@@ -59,7 +59,7 @@ Use it to answer questions like:
 ## A typical investigation
 
 1. In **Services**, notice a service with a degraded p99 or falling Apdex —
-   see [The Services view](/apm/services/).
+   see [The Services view](/mindops-docs/apm/services/).
 2. Open that service and check **Database Calls** and **External Calls**.
 3. Sort by p99 latency or by error rate to find the offending dependency.
 4. Click into a trace to confirm the root cause — a slow `SELECT`, a retrying

@@ -23,7 +23,7 @@ MINDOPS_TELEMETRYSTORE_PROVIDER=clickhouse
 MINDOPS_TELEMETRYSTORE_CLICKHOUSE_DSN=tcp://clickhouse:9000?username=mindops&password=REDACTED
 ```
 
-To use a managed database instead of the bundled containers, point these DSNs elsewhere. See [Using an external ClickHouse](/manage/external-clickhouse/) for the telemetry side.
+To use a managed database instead of the bundled containers, point these DSNs elsewhere. See [Using an external ClickHouse](/mindops-docs/manage/external-clickhouse/) for the telemetry side.
 
 ## External URL
 
@@ -57,7 +57,7 @@ MINDOPS_SMTP_PASSWORD=REDACTED
 MINDOPS_SMTP_FROM=observability@example.com
 ```
 
-Without working SMTP, you cannot send [team invites](/identity-access/invite-team-members/) and must add users another way.
+Without working SMTP, you cannot send [team invites](/mindops-docs/identity-access/invite-team-members/) and must add users another way.
 
 ## Alertmanager
 

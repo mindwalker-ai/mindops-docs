@@ -42,4 +42,4 @@ value. Prefer grouping by service and type, and keep the variable detail in attr
 1. Sort exception groups by frequency or recency.
 2. Open a group to see affected services and a sample stack trace.
 3. Jump to the **trace** that produced an occurrence to see the full request context.
-4. Create an [alert](/alerts/overview/) so the next spike pages you automatically.
+4. Create an [alert](/mindops-docs/alerts/overview/) so the next spike pages you automatically.

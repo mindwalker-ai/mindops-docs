@@ -56,13 +56,13 @@ registerInstrumentations({ instrumentations: [getWebAutoInstrumentations()] });
 ```
 
 :::caution
-The OTLP/HTTP receiver must allow cross-origin requests from your site's origin, or the browser will block the export. See the CORS note in [Browser traces & logs](/frontend-monitoring/traces-and-logs/).
+The OTLP/HTTP receiver must allow cross-origin requests from your site's origin, or the browser will block the export. See the CORS note in [Browser traces & logs](/mindops-docs/frontend-monitoring/traces-and-logs/).
 :::
 
 ## What to do next
 
-- Send real user performance with [Core Web Vitals](/frontend-monitoring/web-vitals/).
-- Forward browser traces and logs and handle CORS in [Browser traces & logs](/frontend-monitoring/traces-and-logs/).
+- Send real user performance with [Core Web Vitals](/mindops-docs/frontend-monitoring/web-vitals/).
+- Forward browser traces and logs and handle CORS in [Browser traces & logs](/mindops-docs/frontend-monitoring/traces-and-logs/).
 - Set a meaningful `service.name` resource attribute so frontend telemetry is easy to find in the UI.
 
 ## Practical advice

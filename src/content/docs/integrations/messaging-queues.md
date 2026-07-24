@@ -85,4 +85,4 @@ Self-hosted MindOps needs no ingestion key. Route these receivers to OTLP `:4317
 build a lag alert so a stuck consumer pages you before the backlog becomes an outage.
 :::
 
-See [Integrations Overview](/integrations/overview/) for the general pattern.
+See [Integrations Overview](/mindops-docs/integrations/overview/) for the general pattern.

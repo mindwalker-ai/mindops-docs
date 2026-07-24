@@ -76,4 +76,4 @@ docker compose down -v   # stop and delete data volumes
 removed.
 :::
 
-Next: **[Send Your First Data](/get-started/send-data/)**.
+Next: **[Send Your First Data](/mindops-docs/get-started/send-data/)**.

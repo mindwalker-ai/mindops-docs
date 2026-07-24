@@ -70,8 +70,8 @@ into two in the UI.
 :::caution
 If your runtime lacks a mature OTel logging bridge, fall back to writing
 structured JSON to stdout and collecting it with the Collector filelog
-receiver — see [Send Logs](/logs/send-logs/).
+receiver — see [Send Logs](/mindops-docs/logs/send-logs/).
 :::
 
 Once logs arrive, learn the record shape in
-[Fields and Attributes](/logs/fields-and-attributes/).
+[Fields and Attributes](/mindops-docs/logs/fields-and-attributes/).

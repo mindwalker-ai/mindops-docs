@@ -86,5 +86,5 @@ No ingestion key is needed for self-hosted MindOps. Once data flows, find the in
 under Infrastructure and build a CPU or disk alert so a full disk never surprises you.
 :::
 
-See the [AWS overview](/aws-monitoring/overview/) for the CloudWatch-pull alternative
+See the [AWS overview](/mindops-docs/aws-monitoring/overview/) for the CloudWatch-pull alternative
 when you cannot run an agent on the box.

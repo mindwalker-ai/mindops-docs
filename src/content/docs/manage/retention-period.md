@@ -43,7 +43,7 @@ Retention is the main lever you have over storage growth. Daily disk usage is ro
 
 Before increasing any retention window:
 
-1. Check current per-signal usage with the queries in the [ClickHouse guide](/manage/clickhouse/).
+1. Check current per-signal usage with the queries in the [ClickHouse guide](/mindops-docs/manage/clickhouse/).
 2. Confirm you have headroom on the data volume.
 3. Increase retention gradually and watch growth over a few days.
 
@@ -55,4 +55,4 @@ Shortening retention deletes data older than the new window, and that deletion i
 
 A retention change does not instantly purge data. ClickHouse removes expired partitions during its normal background merge cycle, so reclaimed space appears gradually rather than all at once. If you need space urgently, you can drop old partitions manually, but for routine operation the automatic TTL cleanup is sufficient.
 
-For deployments using an [external ClickHouse](/manage/external-clickhouse/), retention is still configured here in MindOps, but make sure the cluster has enough disk to honor the windows you set.
+For deployments using an [external ClickHouse](/mindops-docs/manage/external-clickhouse/), retention is still configured here in MindOps, but make sure the cluster has enough disk to honor the windows you set.

@@ -49,7 +49,7 @@ http_status_code IN (500, 502, 503, 504)
 ```
 
 :::note
-The Builder joins filter rows with AND. For complex boolean logic mixing AND and OR across different attributes, drop to [ClickHouse SQL](/querying/clickhouse-queries/) where you can write an arbitrary `WHERE` clause.
+The Builder joins filter rows with AND. For complex boolean logic mixing AND and OR across different attributes, drop to [ClickHouse SQL](/mindops-docs/querying/clickhouse-queries/) where you can write an arbitrary `WHERE` clause.
 :::
 
 ## Full-text search
@@ -87,4 +87,4 @@ Start broad, then add filter rows one at a time and watch the result count fall.
 `CONTAINS` does a substring scan and is slower than `=` on indexed attributes. When a structured attribute exists (for example `http_route`), prefer an exact match over searching the raw body.
 :::
 
-These filters power the Query Builder; see [Aggregation and Grouping](/querying/aggregation-grouping/) for what happens to the matching records next.
+These filters power the Query Builder; see [Aggregation and Grouping](/mindops-docs/querying/aggregation-grouping/) for what happens to the matching records next.
