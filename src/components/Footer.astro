@@ -2,6 +2,10 @@
 // Wrap Starlight's default footer (keeps prev/next pagination + last-updated),
 // then append a MindOps site footer.
 import Default from '@astrojs/starlight/components/Footer.astro';
+
+// Base isn't auto-applied to hardcoded hrefs in Astro components (only to
+// Starlight's own generated links) — prepend it manually.
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Default />
@@ -10,30 +14,30 @@ import Default from '@astrojs/starlight/components/Footer.astro';
 	<div class="mo-footer-cols">
 		<div>
 			<span class="mo-footer-head">Product</span>
-			<a href="/introduction/">Introduction</a>
-			<a href="/install/docker-standalone/">Self-Host</a>
-			<a href="/instrumentation/overview/">Instrumentation</a>
-			<a href="/dashboards/overview/">Dashboards</a>
+			<a href={`${base}/introduction/`}>Introduction</a>
+			<a href={`${base}/install/docker-standalone/`}>Self-Host</a>
+			<a href={`${base}/instrumentation/overview/`}>Instrumentation</a>
+			<a href={`${base}/dashboards/overview/`}>Dashboards</a>
 		</div>
 		<div>
 			<span class="mo-footer-head">Reference</span>
-			<a href="/querying/overview/">Querying</a>
-			<a href="/alerts/overview/">Alerts</a>
-			<a href="/collection-agents/overview/">Collector</a>
-			<a href="/metrics/overview/">Metrics</a>
+			<a href={`${base}/querying/overview/`}>Querying</a>
+			<a href={`${base}/alerts/overview/`}>Alerts</a>
+			<a href={`${base}/collection-agents/overview/`}>Collector</a>
+			<a href={`${base}/metrics/overview/`}>Metrics</a>
 		</div>
 		<div>
 			<span class="mo-footer-head">Migrate</span>
-			<a href="/migration/from-datadog/">From Datadog</a>
-			<a href="/migration/from-new-relic/">From New Relic</a>
-			<a href="/migration/from-grafana/">From Grafana</a>
-			<a href="/migration/from-elk/">From ELK</a>
+			<a href={`${base}/migration/from-datadog/`}>From Datadog</a>
+			<a href={`${base}/migration/from-new-relic/`}>From New Relic</a>
+			<a href={`${base}/migration/from-grafana/`}>From Grafana</a>
+			<a href={`${base}/migration/from-elk/`}>From ELK</a>
 		</div>
 		<div>
 			<span class="mo-footer-head">MindOps</span>
-			<a href="/overview/what-is-mindops/">What is MindOps</a>
-			<a href="/overview/architecture/">Architecture</a>
-			<a href="/overview/what-is-opentelemetry/">OpenTelemetry</a>
+			<a href={`${base}/overview/what-is-mindops/`}>What is MindOps</a>
+			<a href={`${base}/overview/architecture/`}>Architecture</a>
+			<a href={`${base}/overview/what-is-opentelemetry/`}>OpenTelemetry</a>
 		</div>
 	</div>
 	<div class="mo-footer-bottom">

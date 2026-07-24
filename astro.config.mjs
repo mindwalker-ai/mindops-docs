@@ -1,12 +1,34 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { visit } from 'unist-util-visit';
+
+const BASE = '/mindops-docs';
+
+// Content is authored with root-relative links (e.g. /introduction/), but Starlight
+// only base-prefixes links it generates itself (sidebar, pagination). Hand-written
+// links in markdown/MDX bodies and frontmatter stay literal, so they 404 under this
+// project-page base. Rewrite them at build time instead of editing every doc file.
+function rehypeBaseLinks() {
+	return (tree) => {
+		visit(tree, 'element', (node) => {
+			if (node.tagName !== 'a' || typeof node.properties?.href !== 'string') return;
+			const href = node.properties.href;
+			if (href.startsWith('/') && !href.startsWith('//') && !href.startsWith(BASE + '/') && href !== BASE) {
+				node.properties.href = BASE + href;
+			}
+		});
+	};
+}
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://mindwalker-ai.github.io',
-	base: '/mindops-docs',
+	base: BASE,
 	outDir: './docs',
+	markdown: {
+		rehypePlugins: [rehypeBaseLinks],
+	},
 	integrations: [
 		starlight({
 			title: 'MindOps Docs',
