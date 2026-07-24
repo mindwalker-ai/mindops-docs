@@ -1,0 +1,20 @@
+/* MindOps brand theme — accent derived from the logo's blue */
+:root {
+	--sl-color-accent-low: #16334a;
+	--sl-color-accent: #1c9fe0;
+	--sl-color-accent-high: #bfe6fa;
+
+	--sl-color-text-accent: #34b3ed;
+}
+
+:root[data-theme='light'] {
+	--sl-color-accent-low: #cdeafb;
+	--sl-color-accent: #1183c4;
+	--sl-color-accent-high: #0b3a5c;
+}
+
+/* Give the wide wordmark logo room in the header */
+.site-title img {
+	height: 1.75rem;
+	width: auto;
+}

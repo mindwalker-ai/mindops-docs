@@ -1,0 +1,48 @@
+---
+title: MindOps Documentation
+description: MindOps is an open observability platform that unifies traces, metrics, and logs in a single pane of glass, built on OpenTelemetry.
+template: splash
+hero:
+  tagline: One platform for traces, metrics, and logs. Built on OpenTelemetry. Self-hosted, no vendor lock-in.
+  image:
+    file: ../../assets/mindops-logo.png
+  actions:
+    - text: Get Started
+      link: /introduction/
+      icon: right-arrow
+    - text: Self-Host with Docker
+      link: /get-started/install-docker/
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Explore MindOps
+
+<CardGrid stagger>
+	<Card title="Application Monitoring" icon="rocket">
+		Track latency, error rate, and throughput across every service with the
+		[APM](/instrumentation/overview/) views.
+	</Card>
+	<Card title="Distributed Tracing" icon="random">
+		Follow a request across services with flamegraphs and Gantt charts in
+		[Traces](/traces/overview/).
+	</Card>
+	<Card title="Logs Management" icon="document">
+		Search, filter, and pipeline high-volume [Logs](/logs/overview/) stored in
+		ClickHouse.
+	</Card>
+	<Card title="Metrics & Dashboards" icon="bars">
+		Build [dashboards](/dashboards/overview/) from any metric and correlate
+		signals in one place.
+	</Card>
+	<Card title="Alerts" icon="warning">
+		Get notified on thresholds and anomalies across traces, metrics, and logs —
+		see [Alerts](/alerts/overview/).
+	</Card>
+	<Card title="Exceptions" icon="error">
+		Group and triage application [exceptions](/exceptions/overview/) tied to the
+		traces that produced them.
+	</Card>
+</CardGrid>

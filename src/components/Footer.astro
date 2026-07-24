@@ -1,0 +1,83 @@
+---
+// Wrap Starlight's default footer (keeps prev/next pagination + last-updated),
+// then append a MindOps site footer.
+import Default from '@astrojs/starlight/components/Footer.astro';
+---
+
+<Default />
+
+<footer class="mo-footer">
+	<div class="mo-footer-cols">
+		<div>
+			<span class="mo-footer-head">Product</span>
+			<a href="/introduction/">Introduction</a>
+			<a href="/install/docker-standalone/">Self-Host</a>
+			<a href="/instrumentation/overview/">Instrumentation</a>
+			<a href="/dashboards/overview/">Dashboards</a>
+		</div>
+		<div>
+			<span class="mo-footer-head">Reference</span>
+			<a href="/querying/overview/">Querying</a>
+			<a href="/alerts/overview/">Alerts</a>
+			<a href="/collection-agents/overview/">Collector</a>
+			<a href="/metrics/overview/">Metrics</a>
+		</div>
+		<div>
+			<span class="mo-footer-head">Migrate</span>
+			<a href="/migration/from-datadog/">From Datadog</a>
+			<a href="/migration/from-new-relic/">From New Relic</a>
+			<a href="/migration/from-grafana/">From Grafana</a>
+			<a href="/migration/from-elk/">From ELK</a>
+		</div>
+		<div>
+			<span class="mo-footer-head">MindOps</span>
+			<a href="/overview/what-is-mindops/">What is MindOps</a>
+			<a href="/overview/architecture/">Architecture</a>
+			<a href="/overview/what-is-opentelemetry/">OpenTelemetry</a>
+		</div>
+	</div>
+	<div class="mo-footer-bottom">
+		<span>© 2026 MindOps — Open observability, built on OpenTelemetry.</span>
+	</div>
+</footer>
+
+<style>
+	.mo-footer {
+		margin-top: 3rem;
+		padding-top: 2rem;
+		border-top: 1px solid var(--sl-color-hairline);
+	}
+	.mo-footer-cols {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+		gap: 1.5rem 2rem;
+	}
+	.mo-footer-cols > div {
+		display: flex;
+		flex-direction: column;
+		gap: 0.4rem;
+	}
+	.mo-footer-head {
+		font-size: var(--sl-text-xs);
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		color: var(--sl-color-white);
+		margin-bottom: 0.3rem;
+	}
+	.mo-footer-cols a {
+		color: var(--sl-color-gray-3);
+		text-decoration: none;
+		font-size: var(--sl-text-sm);
+	}
+	.mo-footer-cols a:hover {
+		color: var(--sl-color-text-accent);
+	}
+	.mo-footer-bottom {
+		margin-top: 1.75rem;
+		padding-top: 1rem;
+		border-top: 1px solid var(--sl-color-hairline);
+		font-size: var(--sl-text-xs);
+		color: var(--sl-color-gray-3);
+	}
+</style>
