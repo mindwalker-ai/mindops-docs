@@ -34,6 +34,10 @@ When the collector runs in a container, mount the host filesystem and set
 Run the collector as an agent on each node (a DaemonSet on Kubernetes) to collect container
 and pod metrics, then forward everything to your MindOps collector over OTLP.
 
+## IBM i (AS/400)
+
+IBM i cannot run the OpenTelemetry Collector. The agentless [IBM i collector](/mindops-docs/infrastructure/ibm-i/) runs on the MindOps server, reads IBM i over a read-only ODBC connection, and lists the system under **Infrastructure > Hosts** like any other host. For COBOL and IBM i applications, see the [COBOL & IBM i Overview](/mindops-docs/instrumentation/cobol-and-ibm-i/).
+
 ## Cloud services
 
 Pull metrics from managed cloud services (AWS, GCP, Azure) using the matching OpenTelemetry
