@@ -22,6 +22,14 @@ error rate, and throughput — no separate APM agent required.
 
 See **[Send Your First Data](/mindops-docs/get-started/send-data/)** for a runnable Node.js example.
 
+## COBOL, RPG, and IBM i
+
+OpenTelemetry has no COBOL or RPG SDK, and IBM i cannot run the OpenTelemetry Collector. MindOps covers both. Start with the **[COBOL & IBM i Overview](/mindops-docs/instrumentation/cobol-and-ibm-i/)**, which helps you choose one of three cases:
+
+- [COBOL on Linux & Windows](/mindops-docs/instrumentation/cobol-linux-windows/): GnuCOBOL with MINDOTEL, or the built-in OpenTelemetry of Rocket (Micro Focus) Enterprise Server.
+- [COBOL & RPG on IBM i](/mindops-docs/instrumentation/cobol-rpg-ibm-i/): the MINDOTEL SDK for ILE programs on IBM i (AS/400).
+- [Java, Node.js & Python on IBM i](/mindops-docs/instrumentation/ibm-i-open-source/): the standard OpenTelemetry SDKs, which run on IBM i unchanged.
+
 ## Auto vs manual instrumentation
 
 - **Auto-instrumentation** covers popular frameworks, HTTP clients, and database drivers
